@@ -32,6 +32,13 @@ var place = prompt('Is my favorite place to visit Las Vegas? Yes or No');
   } else {
     	alert('No is not right my favorite place to visit is Las Vegas');
   }
+  var name =prompt('Is my favorite name Sara? Yes or No');
+    if (name === 'yes') {
+      alert('You are right my favorite name is Sara');
+    score += 1;
+  } else {
+      alert('Wrong, my favorite name is Sara.');
+  }
 
  var user = parseInt(prompt('What is my favorite number 1-10'));
    while(user !== 5) {
