@@ -1,36 +1,48 @@
-
-var score = 0
-var birthplace = prompt('Was i born in Albania? Yes or No');
-     if (birthplace === 'yes') {
-     	alert('Yeahhh you are correct');
+var score = 0;
+var tvShow = prompt('Is my favorite tv show Orange and Black? Yes or No');
+     if (tvShow === 'yes') {
+     	alert('No my favorite tv show is Breaking Bad');
+      score += 1;
  } else {
-     	alert('sorry you are wrong try next time');
+     	alert('You\'re\ right my favorite show is Breaking Bad');
  }
-var score = 1
-     
-var color = prompt('is my favorite color blue? Yes or No');
-    if (color === 'yes') {
-     alert('right');
-    } else {
-  
-    alert('You are wrong');  
-}
-  var score = 1
 
-var car = prompt('is my favorite car BMW?Yes or NO');
-    if (car === 'yes') {
-     	alert('correct')
+     
+var perfume = prompt('Is my favorite Perfume Hugo Boss? Yes or No');
+    if (perfume === 'yes') {
+     alert('No my favorite pafrume is Versace');
+   score += 1;
   } else {
-     	alert('Wrong')
+  
+    alert('You are wrong my favorite Perfume is Versace');  
+  }
+  
+var movie = prompt('Is my favorite movie The age of Adeline? Yes or NO');
+    if (movie === 'yes') {
+     	alert('Correct my favorite movie is The age of Adeline');
+    score += 1;
+  } else {
+     	alert('Wrong my favorite movie is The age of Adeline');
   }
 
-var phone = prompt('Do i use Iphone?Yes or No');
-    if (Iphone === 'yes') {
-    	alert('correct');
- } else {
-    	alert('no you are wrong I use Iphone')
- }
-   
+var place = prompt('Is my favorite place to visit Las Vegas? Yes or No');
+    if (place === 'yes') {
+    	alert('You are right my favorite place to visit is Las Vegas');
+    score += 1;
+  } else {
+    	alert('No is not right my favorite place to visit is Las Vegas');
+  }
+
+ var user = parseInt(prompt('What is my favorite number 1-10'));
+   while(user !== 5) {
+      alert("Guess " + typeof(user));
+      user = parseInt(prompt('Guess again is not my favortie number'));
+  }
+    if (user === 5) {
+       alert('Good Guess this is my favorite number');
+       score  += 1;
+  }
 
 
+ alert("Your correct answered " + score + " out 5 correct");
 
