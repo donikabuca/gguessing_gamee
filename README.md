@@ -3,7 +3,7 @@ Donika Buca
 Guessing Game about my favorite numbers, things, movies etc...
 ---------------# gguessing_gamee-------------------
 
-Guessing game in JavaScript , HTML, CSS
+Guessing game in JavaScript , HTML, CSS----
 
 
 var perfume = prompt('Is my favorite Perfume Hugo Boss? Yes or No');
@@ -14,6 +14,7 @@ var perfume = prompt('Is my favorite Perfume Hugo Boss? Yes or No');
   
     alert('You are wrong my favorite Perfume is Versace');  
   }
+
 
 
   JOKE: 

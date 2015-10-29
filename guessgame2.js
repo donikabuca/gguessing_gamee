@@ -7,7 +7,6 @@ var tvShow = prompt('Is my favorite tv show Orange and Black? Yes or No');
      	alert('You\'re\ right my favorite show is Breaking Bad');
  }
 
-     
 var perfume = prompt('Is my favorite Perfume Hugo Boss? Yes or No');
     if (perfume === 'yes') {
      alert('No my favorite pafrume is Versace');
