@@ -8,7 +8,7 @@ Guessing game in JavaScript , HTML, CSS----
 
 
 
-  JOKE: 
+  JOKE:
           The programmers wife sent him to the grocery store:
           Her instructions were:
           "Buy butter. See if they have eggs. If they do, buy 10"
@@ -19,3 +19,8 @@ Driver: Brandon Feinstein
 Navigator: Donika Buca
 
 The code was worked on together!
+
+Driver: Carson Parker
+Navigator: Donika Buca
+
+The code was worked on together.
