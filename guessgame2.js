@@ -27,7 +27,7 @@ var tvShow = prompt('Is my favorite tv show Orange and Black? Yes or No');
  } else {
       res1.innerHTML = 'No my favorite tv show is Breaking Bad';
       res1.className = 'red'
-      console.log('Your wrong my favorite perfume is: ' + tvShow);
+      console.log('Your wrong my favorite tvShow is: ' + tvShow);
  }
 }
 
