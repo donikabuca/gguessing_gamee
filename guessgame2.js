@@ -27,6 +27,7 @@ var tvShow = prompt('Is my favorite tv show Orange and Black? Yes or No');
  } else {
       res1.innerHTML = 'No my favorite tv show is Breaking Bad';
       res1.className = 'red'
+      console.log('Your wrong my favorite perfume is: ' + tvShow);
  }
 }
 
@@ -43,6 +44,7 @@ var perfume = prompt('Is my favorite Perfume Hugo Boss? Yes or No');
   } else {
     res2.innerHTML = 'You are wrong my favorite Perfume is Versace';
     res2.className = 'red'
+    console.log('Your wrong my favorite perfume is: ' + perfume);
   }
 }
 
@@ -59,6 +61,7 @@ var movie = prompt('Is my favorite movie The age of Adeline? Yes or NO');
   } else {
       res3.innerHTML = 'Wrong my favorite movie is The age of Adeline';
       res3.className = 'red'
+      console.log('Your wrong my favorite movie is: ' + movie);
   }
 }
 
@@ -75,6 +78,7 @@ var place = prompt('Is my favorite place to visit Las Vegas? Yes or No');
   } else {
       res4.innerHTML = 'No is not right my favorite place to visit is Las Vegas';
       res4.className = 'red'
+      console.log('Your wrong my favorite place is: ' + place);
   }
 }
 
@@ -91,6 +95,7 @@ function ques5(){
   } else {
       res5.innerHTML = 'Wrong, my favorite name is Sara.';
       res5.className = 'red'
+      console.log('Your wrong my favorite name is: ' + name);
   }
 }
 
@@ -99,6 +104,7 @@ function ques6(){
    while(user !== 5) {
       res6.innerHTML = "Guess " + typeof(user);
       user = parseInt(prompt('Guess again is not my favortie number'));
+      console.log('Your wrong my favorite number is: ' + user);
   }
     if (user === 5) {
        res6.innerHTML = 'Good Guess this is my favorite number';
@@ -120,3 +126,20 @@ ques5();
 ques6();
 
 alert("Your correct answered " + score + " out 6 correct");
+function firstQuestion() {
+  var ans1 = document.getElementById('answer1');
+var car = prompt('Is BMW my favorite car? Yes or No');
+  if  (car.toLowerCase() === "yes"|| car.toLowerCase() === "yeah"){
+    ans1.innerHTML = "Correct, my favorite car is BMW" + '<br><img style="height:200px; width:200px;" src="img/doge.jpg">';
+    ans1.className = "green";
+    //alert("Correct, my favorite car is BMW");
+    console.log('Correct, my favorite car is: ' + car);
+    score += 1;
+} else {
+    ans1.innerHTML = "Wrong, my favorite car is BMW";
+    ans1.className = "red";
+    // id="answer1"alert("Wrong, my favorite car is BMW");
+    console.log("Incorrect, my favorite car is:" + car)
+  }
+}
+setTimeout(firstQuestion, 1000);
